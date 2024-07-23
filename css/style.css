@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+section{
+	padding: 50px 0;
+	background: #05082a;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h2.title{color: #fff; text-align: center; font-size: 30px; margin: 0 0 30px;
+	text-transform: capitalize;
+}
+
+/**passengerDiv**/
+.passengerDiv{
+	width: 600px;
+	height: 300px;
+	background: url(../images/bg.avif) no-repeat 0 0 ;
+	background-size: cover;
+	margin: 0 auto;
+	border-radius: 20px;
+	text-align: center;
+	padding: 30px;
+}
+.passengerDiv:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+}
+
+.passengerDiv >div{
+	position: relative;
+	z-index: 1;
+}
+.passengerNO{
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0 0 10px;
+	color: #ffff;
+}
+.btn1,.btn2{
+	display: inline-block;
+	padding: 10px 25px;
+	border:none;
+	border-radius:5px;
+	background: #c61717;
+	color: #fff;
+	box-shadow: none;
+	text-transform: uppercase; 
+}
+.btn2{
+	background: green;
+}
